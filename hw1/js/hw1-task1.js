@@ -1,8 +1,9 @@
-const name = 'Генератор защитного поля';
+const name = 'Генераор защитного поля';
 
-const price = 1000;
+let price = 1000;
 
-const infoGoods = `Выбран ${name}, цена за штуку ${price}`
+console.log(`Выбран ${name} цена за штуку ${price} кредитов.`);
 
-console.log(infoGoods);
+price = 2000; 
 
+console.log(`Выбран ${name} цена за штуку ${price} кредитов.`);
